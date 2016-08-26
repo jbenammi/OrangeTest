@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: arial, sans-serif;
+}
+
+div.row {
+	height: 100px;
+}
+
+#GameBoard {
+	width: 950px;
+}
+
+.red {
+	background: white;
+}
+
+.black {
+	background: black;
+}
+
+.pieceB {
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.pieceR {
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	transform: scaleX(-1);
+}
+
+.piecesB {
+	left: 0px;
+	top: 800px;
+	position: absolute;
+	width: 800px;
+	min-height: 200px;
+	background-color: blue;
+}
+.piecesR {
+	left: 0px;
+	top: 1000px;
+	position: absolute;
+	width: 800px;
+	min-height: 200px;
+	background-color: red;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+ul {
+	height: 200px;
+	padding:10px;
+	list-style: disc;
+}
+ul li {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	font-size: 1.5rem;
+	list-style: disc;
+}
+
+#button1 {
+	left: 900px;
+	top: 400px;
+	position: absolute;
+	width: 200px;
+}
+
+#button1 button{
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+#button2 {
+	left: 350px;
+	top: 400px;
+	position: absolute;
+	width: 200px;
+}
+
+#button2 button{
+	padding: 10px;
+	background-color: yellow;
+	border-radius: 5px;
+}
